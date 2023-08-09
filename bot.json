@@ -1,0 +1,72 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  }
+  ,
+  {
+    "response_type": "question",
+    "user_input": ["who", "create", "invent","python"],
+    "bot_response": "Python was created by Guido van Rossum, and first released on February 20, 1991. While you may know the python as a large snake, the name of the Python programming language comes from an old BBC television comedy sketch series called Monty Python's Flying Circus.",
+    "required_words": ["who", "python"]
+  },
+  {
+    "response_type": "jokes",
+    "user_input": ["tell", "me", "joke","a"],
+    "bot_response": "Your love life.",
+    "required_words": ["joke", "tell"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "your","name"],
+     "bot_response": "What would you like it to be.",
+    "required_words": ["your","name"]
+  }
+  ,
+  {
+    "response_type": "question",
+    "user_input": ["tell", "me", "a","quote","about","loving","myself"],
+     "bot_response": "By being yourself you put something wonderful in the world that was not there before.",
+    "required_words": ["quote","loving","myself"]
+  }
+  ,
+  {
+    "response_type": "question",
+    "user_input": ["i", "miss", "you"],
+     "bot_response": "But, I just saw you like a second ago.",
+    "required_words": ["miss","you"]
+  }
+]
